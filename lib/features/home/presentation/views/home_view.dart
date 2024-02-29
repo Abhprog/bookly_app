@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/home_view_body.dart';
+
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
 
@@ -11,10 +13,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Title'),
-      ),
-      body: Container(),
+      body: const HomeViewBody(),
     );
   } // build()
 } // _HomeViewState
