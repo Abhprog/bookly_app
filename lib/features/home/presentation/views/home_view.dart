@@ -12,8 +12,8 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: const HomeViewBody(),
+    return const Scaffold(
+      body: HomeViewBody(),
     );
   } // build()
 } // _HomeViewState
