@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/assets.dart';
 
-class CustomListViewItem extends StatelessWidget {
-  const CustomListViewItem({super.key});
+class FeaturedListViewItem extends StatelessWidget {
+  const FeaturedListViewItem({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class CustomListViewItem extends StatelessWidget {
       child: Container(
           decoration: BoxDecoration(
               color: Colors.red,
-              borderRadius: BorderRadius.circular(20.0),
+              borderRadius: BorderRadius.circular(16.0),
               image: const DecorationImage(
                   fit: BoxFit.fill,
                   image: AssetImage(AssetsData.assetTestImage)))),
