@@ -1,6 +1,8 @@
-import 'package:bookly_app/constants.dart';
-import 'package:bookly_app/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import 'constants.dart';
+import 'features/splash/presentation/views/splash_view.dart';
 // import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
@@ -22,6 +24,8 @@ class Bookly extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             theme: ThemeData.dark().copyWith(
               scaffoldBackgroundColor: kPrimaryColor,
+              // textTheme: GoogleFonts.montserratTextTheme(),
+
               // textTheme: TextTheme() // we could use textTheme() to define
               // the text attributes that we need
               // -OR-
